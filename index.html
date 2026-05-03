@@ -45,24 +45,29 @@
         </div>
     </nav>
 
-    <header class="pt-40 pb-20 px-6 max-w-6xl mx-auto flex flex-col items-center text-center">
-        <div class="inline-block border border-gray-700 rounded-full px-4 py-1 text-xs tracking-widest text-gray-400 mb-6 uppercase">
-            11 - 12 July, 2026 • SMSIMSR, Bengaluru
-        </div>
-        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
-            Endoscopic & Robotic <br>
-            <span class="text-accent">Cardiac Surgery</span> Workshop
-        </h1>
-        <p class="text-gray-400 max-w-2xl text-lg mb-10 leading-relaxed">
-            Join us for a two-day intensive workshop featuring live surgeries, interactive core sessions, and hands-on dry/wet labs dedicated to advancing the field of minimally invasive cardiac care.
-        </p>
-        <div class="flex gap-4">
-            <a href="#register" class="bg-white text-black hover:bg-gray-200 px-8 py-3 rounded-full font-semibold transition-all duration-300">
-                Register Here
-            </a>
-            <a href="#agenda" class="border border-gray-600 hover:border-accent hover:text-accent px-8 py-3 rounded-full transition-all duration-300">
-                View Agenda
-            </a>
+    <header class="relative pt-48 pb-32 px-6 flex flex-col items-center text-center bg-cover bg-center bg-no-repeat" style="background-image: url('SMSIMSR.jpg');">
+        
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-[#050505]"></div>
+
+        <div class="relative z-10 max-w-6xl mx-auto flex flex-col items-center">
+            <div class="inline-block border border-gray-500 bg-black/50 backdrop-blur-sm rounded-full px-4 py-1 text-xs tracking-widest text-gray-300 mb-6 uppercase">
+                11 - 12 July, 2026 • SMSIMSR, Bengaluru
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight drop-shadow-lg">
+                Endoscopic & Robotic <br>
+                <span class="text-accent">Cardiac Surgery</span> Workshop
+            </h1>
+            <p class="text-gray-300 max-w-2xl text-lg mb-10 leading-relaxed drop-shadow-md">
+                Join us for a two-day intensive workshop featuring live surgeries, interactive core sessions, and hands-on dry/wet labs dedicated to advancing the field of minimally invasive cardiac care.
+            </p>
+            <div class="flex gap-4">
+                <a href="#register" class="bg-white text-black hover:bg-gray-200 px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-cyan-500/20">
+                    Register Here
+                </a>
+                <a href="#agenda" class="border border-gray-400 bg-black/40 backdrop-blur-sm hover:border-accent hover:text-accent hover:bg-black/60 px-8 py-3 rounded-full transition-all duration-300">
+                    View Agenda
+                </a>
+            </div>
         </div>
     </header>
 
@@ -87,12 +92,21 @@
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-6 rounded-2xl border border-gray-800 bg-black hover:border-gray-700 transition-colors">
                         <div class="text-gray-400 font-medium">09:00 – 17:00</div>
                         <div class="md:col-span-3">
-                            <h4 class="text-lg font-semibold text-accent mb-2">Live Surgery</h4>
-                            <ul class="text-gray-400 space-y-2 list-disc list-inside">
-                                <li>Live Case 1 (Pre-recorded) - ECS MVR</li>
-                                <li>Live Case 2 - Robotic ASD Closure (Pre-recorded)</li>
-                                <li>Live Case 3 - ECS AVR</li>
-                            </ul>
+                            <h4 class="text-lg font-semibold text-accent mb-4">Live Surgery</h4>
+                            <div class="space-y-4">
+                                <div class="bg-[#111] p-4 rounded-lg border border-gray-800">
+                                    <p class="text-white font-medium">Live Case 1 (Pre-recorded) - ECS MVR</p>
+                                    <p class="text-sm text-accent mt-1">Dr. Sandip Sardar</p>
+                                </div>
+                                <div class="bg-[#111] p-4 rounded-lg border border-gray-800">
+                                    <p class="text-white font-medium">Live Case 2 - Robotic ASD Closure (Pre-recorded)</p>
+                                    <p class="text-sm text-accent mt-1">Dr. Sudhir Srivastava</p>
+                                </div>
+                                <div class="bg-[#111] p-4 rounded-lg border border-gray-800">
+                                    <p class="text-white font-medium">Live Case 3 - ECS AVR</p>
+                                    <p class="text-sm text-accent mt-1">Dr. Antonios Pitsis</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -100,11 +114,14 @@
                         <div class="text-gray-400 font-medium">09:00 – 14:00</div>
                         <div class="md:col-span-3">
                             <h4 class="text-lg font-semibold text-accent mb-2">ECS & RoboticCS Interactive Core Session</h4>
-                            <ul class="text-gray-400 space-y-2 list-disc list-inside">
+                            <ul class="text-gray-400 space-y-2 list-disc list-inside mb-4">
                                 <li>Why ECS/Robotic • Case Selection • Preparation</li>
                                 <li>Anaesthesia (SLV, TEE, ERAS)</li>
                                 <li>Setup, Ports, Imaging • CPB in ECS/Robotic</li>
                             </ul>
+                            <div class="inline-block bg-gray-900 text-gray-300 text-sm px-3 py-1 rounded-full border border-gray-700">
+                                <span class="text-gray-500 mr-2">Faculty:</span> Dr. Sandip Sardar, Dr. Ramprassath M S, Dr. Monalisa Datta
+                            </div>
                         </div>
                     </div>
 
